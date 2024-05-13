@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/main.astro'
+
+
+/**
+ * uncomment the <Layout> jsx (and optionally comment out the existing <html> jsx) and the error will go away
+ */
+
+// note that importing the css directly here doesn't resolve the errror
+import '../layouts/styles.css'
+---
+
+<!-- <Layout>
+	<div class="grid place-items-center h-screen content-center">
+		<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
+	</div>
+</Layout> -->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	</head>
+	<body>
+		<div class="grid place-items-center h-screen content-center">
+			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
+		</div>
+	</body>
+</html>
